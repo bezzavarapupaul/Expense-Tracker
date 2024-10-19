@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(255, 255, 255), rgb(163, 246, 171) , rgb(243, 246, 149) , rgb(169, 174, 243) );
+  }
+  
+  .container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+  }
+  
+  .login-form {
+    padding: 30px;
+    text-align: center;
+  }
+  .signup-form{
+    padding: 30px;
+    text-align: center;
+  }
+  .login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  .signup-form h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .toggle {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .toggle button {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+    border-bottom: 2px solid transparent;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .toggle button.active {
+    color: white;
+    background: linear-gradient(135deg, #c3d4f4 0%, #7fe1f8 100%);
+    border-radius: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: opacity 0.5s;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .forgot-password {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    color: #1e3c72;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .form-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(135deg, #4923f3 0%, #d83e3e 100%);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+  }
+  
+  .form-btn:hover {
+    background: linear-gradient(135deg,  #d06a6a 0%, #937df5 100%);
+  }
+  
+  .signup-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .signup-text a {
+    color: #1e3c72;
+    text-decoration: none;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+  
